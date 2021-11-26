@@ -19,48 +19,6 @@
 	<Reference name="System.Data" localCopy="false" />
 	<Reference name="System.Net.Http" localCopy="false" />
 	<Reference name="System.Runtime.Remoting" localCopy="false" />
-	<Reference name="OpenMetaverse.dll" localCopy="false" />
-	<Reference name="OpenMetaverseTypes.dll" localCopy="false" />
-	<Reference name="OpenMetaverse.StructuredData.dll" localCopy="false" />
-	<Reference name="OpenSim.Data" localCopy="false" />
-	<Reference name="OpenSim.Framework" localCopy="false" />
-	<Reference name="OpenSim.Framework.Console" localCopy="false" />
-	<Reference name="OpenSim.Framework.Servers" localCopy="false" />
-	<Reference name="OpenSim.Framework.Servers.HttpServer" localCopy="false" />
-	<Reference name="OpenSim.Region.Framework" localCopy="false" />
-	<Reference name="OpenSim.Region.CoreModules" localCopy="false" />
-	<Reference name="OpenSim.Region.ScriptEngine.Shared" localCopy="false" />
-	<Reference name="OpenSim.Region.ScriptEngine.Shared.Api" localCopy="false" />
-	<Reference name="OpenSim.Region.PhysicsModules.SharedBase" localCopy="false" />
-	<Reference name="OpenSim.Services.Base" path="../../../bin"/>
-	<Reference name="OpenSim.Services.Interfaces" localCopy="false" />
-	<Reference name="OpenSim.Services.Connectors" localCopy="false" />
-	<Reference name="OpenSim.Server.Base" localCopy="false" />
-	<Reference name="OpenSim.Server.Handlers" localCopy="false" />
-	<Reference name="XMLRPC.dll" localCopy="false" />
-	<Reference name="log4net.dll" localCopy="false" />
-	<Reference name="Nini.dll" localCopy="false" />
-	<Reference name="Mono.Addins.dll" localCopy="false" />
-	<Reference name="MySql.Data" localCopy="false" />
-	<Reference name="Warp3D.dll" localCopy="false" />
-	<Reference name="CSJ2K.dll" localCopy="false" />
-	<Reference name="Mono.Data.Sqlite.dll" localCopy="false" />
-	<Reference name="Mono.Data.SqliteClient.dll" localCopy="false" />
-	<Reference name="Newtonsoft.Json.dll" localCopy="false" />
-	
-	<Reference name="DSharpPlus.dll" path="..\libraries\" localCopy="true" />
-	<Reference name="Emzi0767.Common.dll" path="..\libraries\" localCopy="true" />
-	<Reference name="BouncyCastle.Crypto.dll" path="..\libraries\" localCopy="true" />
-	<Reference name="MimeKit.dll" path="..\libraries\" localCopy="true" />
-	<Reference name="MailKit.dll" path="..\libraries\" localCopy="true" />
-
-	<Reference name="ServiceStack.Common.dll" path="..\libraries\" localCopy="true" />
-	<Reference name="ServiceStack.Interfaces.dll" path="..\libraries\" localCopy="true" />
-	<Reference name="ServiceStack.Redis.dll" path="..\libraries\" localCopy="true" />
-	<Reference name="ServiceStack.Text.dll" path="..\libraries\" localCopy="true" />
-	<Reference name="System.Buffers.dll" path="..\libraries\" localCopy="true" />
-	<Reference name="System.Memory.dll" path="..\libraries\" localCopy="true" />
-	<Reference name="System.Runtime.CompilerServices.Unsafe.dll" path="..\libraries\" localCopy="true" />
 
 	<Files>
 		<Match pattern="*.cs" recurse="true" />
