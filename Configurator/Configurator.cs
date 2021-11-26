@@ -48,9 +48,6 @@ namespace Chris.OS.Configurator
                     Console.WriteLine("Cant find File destination in '" + templateFileInfo.FullName + "' (Config)");
                 }
             }
-
-            Console.WriteLine("DONE");
-            Console.ReadLine();
         }
 
         private static List<FileInfo> getAllConfigTemplateFiles(String path)
