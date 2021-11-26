@@ -31,6 +31,7 @@ namespace Chris.OS.Configurator
                             ConfigReader destination = new ConfigReader(destinationFileInfo.FullName);
 
                             destination.merge(template);
+                            destination.removeConfig("ChrisOS.Configurator");
                             destination.save();
                         }
                         else

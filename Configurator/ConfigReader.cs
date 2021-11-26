@@ -85,6 +85,12 @@ namespace Chris.OS.Configurator
             return null;
         }
 
+        public void removeConfig(String config)
+        {
+            if (m_data.ContainsKey(config))
+                m_data.Remove(config);
+        }
+
         public void set(String config, String key, String value)
         {
             if (key == null || key.Trim() == String.Empty)
