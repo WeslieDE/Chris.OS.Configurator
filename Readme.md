@@ -21,8 +21,8 @@ The tool will look in the "config-template" folder for matching templates and wi
 
 #### Examples for Port changes (File: config-template/OpenSim.ini)
 
-[ChrisOS.Configurator]
-    DestinationFile = OpenSim.ini
-
-[Network]
-    http_listener_port = 7000
+    [ChrisOS.Configurator]
+        DestinationFile = OpenSim.ini
+    
+    [Network]
+        http_listener_port = 7000
